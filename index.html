@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Blossom's</title>
+    <link href="main.css" rel="Stylesheet">
+    <link href="about.css" rel="Stylesheet">
+    <link href="geography.css" rel="Stylesheet">
+    <link href="history-meaning.css" rel="Stylesheet">
+    <link href="end.css" rel="Stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <img src="logo.png" class="logo">
+                <label>JSHKRSNA</label>
+            </div>
+
+            <ul>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#map">GEOGRAPHY</a></li>
+                <li><a href="#sakura" class="sakura-link">SAKURA</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="content">
+                <h1>Cherry Blossom</h1>
+                <p class="sub-judul">SAKURA in Japanese.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="hero">
+            <div class="contentPic">
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+
+                        <div class="slide first">
+                            <img src="about.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="pure-blossom.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="sakura2.jpg" alt="">
+                        </div>
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-about">
+                <h1>What is it?</h1>
+                <span></span>
+                <p>This transient nature highlights the Japanese concept of "Mono no Aware" a sensitivity to the
+                    impermanence of life. <strong>Cherry blossoms</strong>, also known as <b>Sakura</b> in Japan, are
+                    the delicate pink
+                    and white flowers of the cherry tree (genus Prunus). These flowers are celebrated for their
+                    fleeting beauty and are a symbolic harbinger of spring.</p>
+            </div>
+        </div>
+    </section>
+    <section class="geography" id="map">
+        <div class="hero">
+            <div class="content-geography">
+                <h2>Cherry Blossoms Odyssey, Follow the Blooming Flowers from South to North Japan. </h2>
+                <p>Generally Cherry Blossoms or Sakura usually grow in Japan, due to its suitable climate and geography.
+                </p>
+                <span></span>
+            </div>
+            <div class="map">
+                <img src="Sakura-map.jpg" class="mapPic" />
+            </div>
+        </div>
+    </section>
+    <section class="history-meaning" id="sakura">
+        <div class="container">
+            <h1 class="judul">HISTORY and MEANING</h1>
+            <h1 class="sub">of<b> Cherry Bloosom’s</b></h1>
+            <div class="hero">
+                <p class="history">The history of cherry blossoms, or sakura, dates back over a thousand years in Japan.
+                    The earliest references to sakura appear in Japanese literature and poetry from the Nara period
+                    (710-794). During this time, the cherry tree was already associated with various religious and
+                    cultural practices.</p>
+                <p class="meaning">In essence, cherry blossoms are much more than beautiful flowers. They embody
+                    profound philosophical and cultural meanings, reflecting the transient nature of life, the joy of
+                    renewal, and the importance of appreciating the present moment. </p>
+            </div>
+        </div>
+    </section>
+    <section class="end" id="contact">
+        <div class="hero">
+            <div class="end-pic">
+                <img class="endSakura-pic" />
+            </div>
+            <div class="end-content">
+                <h2>The world will be peaceful if there is no competence.</h2>
+                <span></span>
+                <a href="#"><button class="contact-btn">Contact Me</button></a>
+                <a href="https://github.com/kresnaj"><button class="github-btn"><ion-icon name="logo-github" class="logo-github"></ion-icon></button></a>
+            </div>
+        </div>
+    </section>
+    <script src="toggle.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="picSlider.js"></script>
+    <script defer src="section.js"></script>
+</body>
+
+</html>

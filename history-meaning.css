@@ -1,0 +1,85 @@
+.history-meaning .container {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+}
+
+.history-meaning .container .judul {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem 5rem;
+}
+
+.history-meaning .container .sub {
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    padding: 0 5rem;
+    top: -20px;
+}
+
+.history-meaning .container .sub b {
+    background-image: linear-gradient(45deg, #C3829E, #845EC2);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.history-meaning .hero {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    padding: 2rem 2rem;
+    margin: 4rem 4rem;
+    color: white;
+    font-size: 13pt;
+    border: 2px solid white;
+    text-align: left;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.meaning {
+    display: flex;
+    width: 40%;
+    margin: 2rem 2rem;
+    padding: 2rem 1.5rem;
+    color: white;
+    font-size: 13pt;
+    text-align: right;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+@media (max-width: 920px) {
+    .history-meaning .hero {
+        flex-direction: column;
+    }
+
+    .history-meaning .judul, .history-meaning .sub {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        position: relative; 
+        left: 5%; 
+    }
+
+    .history, .meaning {
+        font-size: 15pt;
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        position: relative;   
+        text-align: center;  
+        left: 11%;
+    }
+}
